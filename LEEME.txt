@@ -1,0 +1,24 @@
+UMATRONIX — ARCHIVOS EDITABLES
+
+Abre index.html con Live Server para usar el puerto 5500.
+
+PARA CAMBIAR COLORES Y ASPECTO:
+1. Abre styles.css en Visual Studio Code.
+2. Busca el bloque :root al principio del archivo.
+3. Cambia los valores hexadecimales, por ejemplo --yellow: #ffe600.
+   Puedes cambiar --yellow para la cabecera, --page para el fondo,
+   --ink para el texto y --line para los bordes.
+4. Guarda con Ctrl+S y Live Server actualizará la página.
+
+OTRAS OPCIONES EDITABLES EN :root:
+--font-main       Tipo de letra
+--content-width   Ancho máximo del contenido
+--radius-card     Redondeo de las tarjetas
+--radius-button   Redondeo de los botones
+
+Archivos:
+- index.html: estructura de la página
+- styles.css: diseño y colores
+- app.js: acciones e interacciones
+
+El inicio de sesión es una interfaz visual; no autentica usuarios reales.
