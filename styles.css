@@ -1,8 +1,8 @@
 /* =========================================================
-   UMATRONIX — PERSONALIZACIÓN VISUAL
-   Cambia estos valores para modificar los colores principales.
-   Ejemplo: --yellow: #ffcc00;
-   ========================================================= */
+    UMATRONIX — PERSONALIZACIÓN VISUAL
+    Cambia estos valores para modificar los colores principales.
+    Ejemplo: --yellow: #ffcc00;
+    ========================================================= */
 :root {
     /* Colores de marca */
     --yellow: #ffe600;       /* Amarillo principal de Umatronix */
@@ -14,6 +14,7 @@
     --white: #fff;           /* Superficies blancas */
     --danger: #b42318;       /* Acciones de eliminar */
     --shadow: 0 10px 30px rgba(0, 0, 0, .08); /* Sombra de ventanas */
+    --text-outline: rgba(0, 0, 0, 0.7);
 
     /* Personalización extra */
     --font-main: Arial, Helvetica, sans-serif;
@@ -41,7 +42,26 @@ body{
     background-attachment:fixed;
     color:var(--ink);
     font-family: var(--font-main);
-    -webkit-font-smoothing:antialiased
+    -webkit-font-smoothing:antialiased;
+    text-shadow: 0 0 1px rgba(0,0,0,.12);
+}
+
+.brand-name,
+.catalog-heading h1,
+.eyebrow,
+.heading-caption,
+.item-name,
+.empty-state h2,
+.dialog h2,
+.list-row strong,
+.list-row span,
+.login-notice,
+.page-footer {
+    text-shadow: -1px -1px 0 rgba(0,0,0,.32),
+                 1px -1px 0 rgba(0,0,0,.32),
+                 -1px 1px 0 rgba(0,0,0,.32),
+                 1px 1px 0 rgba(0,0,0,.32),
+                 0 2px 8px rgba(0,0,0,.08);
 }
 
 .background-button{
